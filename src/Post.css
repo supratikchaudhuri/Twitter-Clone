@@ -23,6 +23,7 @@ h3 > span {
 .verification-badge {
 	color: var(--twitter-color);
 	font-size: 14px !important;
+	margin: 0 5px;
 }
 
 .post-header-description {
@@ -35,29 +36,4 @@ h3 > span {
 	background-size: cover;
 	cursor: pointer;
 	max-width: 100%;
-}
-
-.post-footer {
-	margin-top: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	color: grey;
-}
-
-.post-footer > .utility:hover {
-	background-color: var(--twitter-background);
-}
-
-.post-footer > .reply:hover {
-	color: var(--twitter-color);
-}
-.post-footer > .rt:hover {
-	color: green;
-}
-.post-footer > .like:hover {
-	color: red;
-}
-.post-footer > .share:hover {
-	color: var(--twitter-color);
 }

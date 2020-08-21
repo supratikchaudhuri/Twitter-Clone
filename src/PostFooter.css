@@ -1,0 +1,28 @@
+.post-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: grey;
+}
+
+.post-footer > .utility {
+	padding: 8px;
+}
+
+.post-footer > .utility:hover {
+	background-color: var(--twitter-background);
+	border-radius: 100%;
+}
+
+.post-footer > .reply:hover {
+	color: var(--twitter-color);
+}
+.post-footer > .rt:hover {
+	color: green;
+}
+.post-footer > .like:hover {
+	color: red;
+}
+.post-footer > .share:hover {
+	color: var(--twitter-color);
+}

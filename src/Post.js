@@ -2,10 +2,8 @@ import React from 'react';
 import './Post.css';
 import { Avatar } from '@material-ui/core';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
-import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
-import RepeatIcon from '@material-ui/icons/Repeat';
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import PublishIcon from '@material-ui/icons/Publish';
+
+import PostFooter from './PostFooter';
 
 function Post({ displayname, username, verified, text, image, avatar }) {
 	return (
@@ -30,13 +28,7 @@ function Post({ displayname, username, verified, text, image, avatar }) {
 					</div>
 				</div>
 				<img src="https://i.gadgets360cdn.com/large/twitter-main_1563278463162.jpg" />
-
-				<div className="post-footer">
-					<ChatBubbleOutlineIcon fontSize="small" className="utility reply" />
-					<RepeatIcon fontSize="small" className="utility rt" />
-					<FavoriteBorderIcon fontSize="small" className="utility like" />
-					<PublishIcon fontSize="small" className="utility share" />
-				</div>
+				<PostFooter />
 			</div>
 		</div>
 	);
