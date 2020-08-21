@@ -1,0 +1,8 @@
+.utilities {
+	color: var(--twitter-color);
+}
+
+.utility {
+	cursor: pointer;
+	margin: 0 7.5px;
+}

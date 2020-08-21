@@ -1,0 +1,36 @@
+.feed {
+	border-right: 1px solid var(--twitter-background);
+	flex: 0.45;
+	min-width: fit-content;
+	overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+	display: none;
+}
+
+.feed-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-bottom: 1px solid var(--twitter-background);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background-color: white;
+}
+
+.feed-header > h2 {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.feed-header > .star {
+	cursor: pointer;
+	color: var(--twitter-color);
+}
+
+.feed-header > .star:hover {
+	background-color: var(--twitter-background);
+	border-radius: 100%;
+}
