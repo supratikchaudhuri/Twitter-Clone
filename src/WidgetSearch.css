@@ -1,0 +1,22 @@
+.widget-search{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    padding: 2px 15px;
+    color: gray;
+}
+
+.widget-search > .search-icon{
+}
+
+.widget-search > input{
+    border: none;
+    padding: 10px ;
+    background-color: transparent;
+    flex: 1;
+    color: black;
+    font-size: 16px !important;
+    font-weight: 100;
+}

@@ -1,0 +1,10 @@
+.whats-happening{
+    margin-top : 20px;
+    background-color: var(--twitter-background); 
+    border-radius: 20px;
+    padding: 10px 20px
+}
+
+.whats-happening > h2 {
+    font-size: 20px;
+}
