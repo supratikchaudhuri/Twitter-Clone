@@ -8,26 +8,30 @@ import PostFooter from './PostFooter';
 function Post({ displayname, username, verified, text, image, avatar }) {
 	return (
 		<div className="post">
+			{/* post Avatar */}
 			<div className="post-avatar">
-				<Avatar />
+				<Avatar src = {avatar}/>
 			</div>
 
+			{/* PostBody */}
 			<div className="post-body">
 				<div className="post-header">
 					<div className="post-header-text">
 						<h3>
-							Supratik Chaudhuri
+							{displayname}
+							{verified ? <CheckCircleIcon className="verification-badge" /> : null}
 							<span>
-								<CheckCircleIcon className="verification-badge" />
-								supratikkk
+								@{username}
 							</span>
 						</h3>
 					</div>
 					<div className="post-header-description">
-						<p>Twitter clone using react components</p>
+						<p>{text}</p>
 					</div>
 				</div>
-				<img src="https://i.gadgets360cdn.com/large/twitter-main_1563278463162.jpg" />
+				<img src={image} />
+
+				{/* postFooter */}
 				<PostFooter />
 			</div>
 		</div>
