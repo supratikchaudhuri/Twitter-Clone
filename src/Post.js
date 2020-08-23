@@ -1,13 +1,20 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import './Post.css';
 import { Avatar } from '@material-ui/core';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 
 import PostFooter from './PostFooter';
 
-function Post({ displayname, username, verified, text, image, avatar }) {
+const Post = forwardRef(({ 
+	displayname,
+	username, 
+	verified, 
+	text, 
+	image, 
+	avatar
+}, ref) => {
 	return (
-		<div className="post">
+		<div className="post" ref = {ref}>
 			{/* post Avatar */}
 			<div className="post-avatar">
 				<Avatar src = {avatar}/>
@@ -36,6 +43,6 @@ function Post({ displayname, username, verified, text, image, avatar }) {
 			</div>
 		</div>
 	);
-}
+})
 
 export default Post;
