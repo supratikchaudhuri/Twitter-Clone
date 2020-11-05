@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './TweetBox.css';
+import './styles/TweetBox.css';
 import { Avatar, Button } from '@material-ui/core';
-import Utilities from './Utilities.js';
+import Utilities from './Utilities';
 
 function TweetBox() {
 	const [ tweetMessage, setTweetMessage ] = useState('');

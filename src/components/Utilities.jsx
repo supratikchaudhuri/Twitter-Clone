@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './Utilities.css';
+import './styles/Utilities.css';
 import CropOriginalIcon from '@material-ui/icons/CropOriginal';
 import GifIcon from '@material-ui/icons/Gif';
 import EqualizerIcon from '@material-ui/icons/Equalizer';

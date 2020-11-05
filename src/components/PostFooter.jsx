@@ -1,5 +1,5 @@
 import React from 'react';
-import './PostFooter.css';
+import './styles/PostFooter.css';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import RepeatIcon from '@material-ui/icons/Repeat';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';

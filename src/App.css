@@ -12,3 +12,7 @@ body {
 	padding: 0 10px;
 	
 }
+
+input:focus {
+	outline: none;
+}

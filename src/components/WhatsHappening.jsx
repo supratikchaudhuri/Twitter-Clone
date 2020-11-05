@@ -1,5 +1,5 @@
 import React from 'react'
-import "./WhatsHappening.css";
+import "./styles/WhatsHappening.css";
 import {TwitterTimelineEmbed, TwitterShareButton, TwitterTweetButton, TwitterTweetEmbed} from "react-twitter-embed";
 
 function WhatsHappening() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Widgets.css';
+import './styles/Widgets.css';
 import {TwitterTimelineEmbed, TwitterShareButton, TwitterTweetButton} from "react-twitter-embed";
 import WidgetSearch from "./WidgetSearch"
 import WhatsHappening from "./WhatsHappening";

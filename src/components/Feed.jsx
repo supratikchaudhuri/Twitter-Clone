@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Feed.css';
+import './styles/Feed.css';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import TweetBox from './TweetBox';
 import Post from './Post';
