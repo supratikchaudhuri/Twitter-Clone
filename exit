@@ -1,0 +1,47 @@
+[33mcommit ad5b704bd76f1049e70f6a58c4ddc2e1dc204747[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Sun Aug 23 16:08:50 2020 +0530
+
+    changed favicon and minor bug fixes
+
+[33mcommit 45dc2cf9e5dca07ccb3aa4a2d812c41a8f5ac9c3[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Sun Aug 23 13:31:37 2020 +0530
+
+    made tweetbox functional
+
+[33mcommit 0269bd9d6103dc862234688bb8f8bde943cf9b31[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Sun Aug 23 00:01:35 2020 +0530
+
+    finetuned sidebarOption heights and margins
+
+[33mcommit e2c8d5985f59bdf3c25738b0bdd1604a95f98ec9[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Sat Aug 22 16:40:39 2020 +0530
+
+    added firebase realtime database
+
+[33mcommit ef980ed6a97e7f51bbdd9edc41d744760c94ac3e[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Sat Aug 22 14:14:40 2020 +0530
+
+    added widgets
+
+[33mcommit 2e3341d5c4144b61ee789f865581cbc1fd1dd048[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Fri Aug 21 23:08:48 2020 +0530
+
+    separate component for post interactions
+
+[33mcommit 6cf4aca74c87b1ea8abfffe3e090dee82ded8484[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Fri Aug 21 19:28:00 2020 +0530
+
+    adding remaining files
+
+[33mcommit 36ec238b273474ba9fedd33522ee7bbe09e79b10[m
+Author: Supratik <rikc.2000@gmail.com>
+Date:   Wed Aug 19 14:37:03 2020 +0530
+
+    Initialize project using Create React App
